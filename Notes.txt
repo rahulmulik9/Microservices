@@ -18,7 +18,7 @@ How to created this file.
  so when you run you localhost/8080 . values are fetched from new configuration file.
  So older values are 3,997 and new values are 4,996
 
- 3) You can copy properties file and include in name as -dev and -qa in git config file
+ 3) include in name of file limits-service as -dev and -qa in git config file to create extra two files. (e.g limits-service-dev.properties)
  4) In limits-service set the profile as follow
  spring.profiles.active=qa
  spring.cloud.config.profile=qa
