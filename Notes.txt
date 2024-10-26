@@ -1,0 +1,14 @@
+To add configuration file for Config server
+//data in file
+limits-service.minimum=4
+limits-service.maximum=996
+
+How to created this file.
+1)Create folder and open cmd : git init
+2)Create this file in text editor and saved as .properties
+3)Open cmd : git add *
+4)Open cmd : git commit -m "Adding properties"
+
+
+ Note : Dont commit it into folder
+ This folder should not be included in directory where all modules are store
