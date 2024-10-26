@@ -23,3 +23,7 @@ How to created this file.
  spring.profiles.active=qa
  spring.cloud.config.profile=qa
  this will fetch qa values similar you can do with dev
+
+
+ 5) Currency exchange microservice give currency conversion rate 1$ = 80 INR
+ 6) Currency conversion microservice . actually convert
