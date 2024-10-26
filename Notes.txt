@@ -12,3 +12,8 @@ How to created this file.
 
  Note : Dont commit it into folder
  This folder should not be included in directory where all modules are store
+
+
+ 2) Give spring.application.name=limits-service as name in limit-serive
+ so when you run you localhost/8080 . values are fetched from new configuration file.
+ So older values are 3,997 and new values are 4,996
