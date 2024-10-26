@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Microservices.iml" filepath="$PROJECT_DIR$/.idea/Microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/git-configlocal/git-configlocal.iml" filepath="$PROJECT_DIR$/git-configlocal/git-configlocal.iml" />
     </modules>
   </component>
 </project>
