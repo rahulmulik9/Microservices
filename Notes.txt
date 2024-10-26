@@ -5,7 +5,7 @@ limits-service.maximum=996
 
 How to created this file.
 1)Create folder and open cmd : git init
-2)Create this file in text editor and saved as .properties
+2)Create this  limits-service.properties (name should be match with spring.application.name=limits-service in limit-service module)file in text editor and saved as .properties
 3)Open cmd : git add *
 4)Open cmd : git commit -m "Adding properties"
 
@@ -17,3 +17,9 @@ How to created this file.
  2) Give spring.application.name=limits-service as name in limit-serive
  so when you run you localhost/8080 . values are fetched from new configuration file.
  So older values are 3,997 and new values are 4,996
+
+ 3) You can copy properties file and include in name as -dev and -qa in git config file
+ 4) In limits-service set the profile as follow
+ spring.profiles.active=qa
+ spring.cloud.config.profile=qa
+ this will fetch qa values similar you can do with dev
